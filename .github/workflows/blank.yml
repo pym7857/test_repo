@@ -3,7 +3,7 @@ on:
   pull_request:
     types: [labeled]
 jobs:
-  Run Actions:
+  run-actions:
     runs-on: ubuntu-latest
     steps:
       - name: Merge PR Auto Step
